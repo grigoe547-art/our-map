@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Нашите места 💗</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="top">
+        <h1 class="title">Нашите места 💗</h1>
+        <p class="subtitle">Кликни пин. Всяко място си има история.</p>
+    </header>
+
+    <main class="wrap">
+        <section id="map" class="map"></section>
+
+        <aside class="panel">
+            <div id="panelContent" class="panelContent fadeIn">
+                <h2 id="placeTitle">Избери място ✨</h2>
+                <p id="placeText">Кликни върху някой пин на картата.</p>
+                <img id="placeImg" alt="" hidden />
+                <div class="meta">
+                    <span id="placeCoords"></span>
+                </div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
+
